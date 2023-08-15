@@ -1,0 +1,54 @@
+nav {
+  background-color: transparent;
+  height: 8vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 10;
+  font-size: 0.9rem;
+  font-family: Netflix;
+  
+}
+section {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: auto;
+  
+}
+.nav-left {
+  display: flex;
+  width: 85%;
+}
+.nav-logo{
+    height: 3.7rem;
+}
+
+.nav-links{
+    margin-left: 1.2 rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links a{
+    color:white;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    transition: 0 0.6s ease;
+ 
+}
+.nav-links a:hover {
+    color: rgb(156,156,156);
+    
+     
+}
+.nav-right{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10rem;
+    flex: 1;
+}

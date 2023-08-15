@@ -1,0 +1,32 @@
+.row_wrapper{
+    color: #fff;
+    margin-bottom: 10px;
+    z-index: 3;
+    margin-left: 5vw;
+}
+
+
+.row_title{
+    font-size: 1.4vw;
+    letter-spacing: 0.7px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    z-index: 3;
+
+}
+
+.row_cards{
+   display: flex;
+   align-items: center;
+   height: 150px;
+   color: #fff;
+   overflow-x: scroll;
+   /* flex-wrap: wrap;
+   margin-left: -10px;
+   margin-right: -10px;
+   z-index: 3;  */
+}
+
+.row_cards::-webkit-scrollbar{
+    display: none;
+}
